@@ -1,4 +1,4 @@
 # Weather App
 
 ## Demo
-[!live demo](https://mahanahmadnia.github.io/Weather-App/)
+[live demo](https://mahanahmadnia.github.io/Weather-App/)
