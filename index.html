@@ -25,11 +25,11 @@
 
                     <div class="input-group mx-3">
 
-                        <input type="text" class="form-control rounded-pill shadow-sm py-3">
+                        <input type="text" id="input" class="form-control rounded-pill shadow-sm py-3">
 
                     </div>
 
-                    <button class="btn btn-outline-primary px-3 py-3 px-sm-4 me-3 rounded-5 shadow-sm">
+                    <button id="button" class="btn btn-outline-primary px-3 py-3 px-sm-4 me-3 rounded-5 shadow-sm">
                         <i class="bi bi-search"></i>
                     </button>
 
@@ -45,40 +45,40 @@
 
                 <!-- tempture-city -->
 
-                <div class="tempture-city text-center align-content-center my-2 py-2">
+                <div class="temperature-city text-center align-content-center my-2 py-2">
 
-                    <h2 class="display-6">15 C</h2>
+                    <h2 id="cityTemperature" class="display-6">15 C</h2>
                     
-                    <h2 class="display-5">Amestrdom</h2>
+                    <h2 id="cityName" class="display-5">Amestrdom</h2>
                 </div>
 
 
                 <!-- footer -->
 
-                <div class="my-4 d-flex align-items-center justify-content-around">
+                <div class="mb-4 d-flex align-items-center justify-content-around">
 
                     <!-- first -->
                     <div class="d-flex align-items-center justify-content-center my-3">
 
                         
-                        <img src="./images/water_36dp_000000_FILL0_wght400_GRAD0_opsz40.svg" alt="" class="img-fluid mx-3" width="60px">
+                        <img src="./images/water_36dp_000000_FILL0_wght400_GRAD0_opsz40.svg" alt="" class="img-fluid mx-1" width="60px">
 
                         <div>
-                            <span>60 </span>%
+                            <span id="humidity">60 </span>%
 
                             <br>
 
-                            <span>humidiy</span>
+                            <span>humidity</span>
                         </div>
                     </div>
 
                     <!-- twice -->
                     <div class="d-flex align-items-center justify-content-center my-3">
 
-                        <img src="./images/air_36dp_000000_FILL0_wght400_GRAD0_opsz40.svg" alt="" class="img-fluid mx-3" width="60px">
+                        <img src="./images/air_36dp_000000_FILL0_wght400_GRAD0_opsz40.svg" alt="" class="img-fluid mx-1" width="60px">
 
                         <div>
-                            <span>15 </span>km/h
+                            <span id="windSpeed">15 </span>km/h
 
                             <br>
 
