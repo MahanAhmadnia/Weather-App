@@ -28,6 +28,7 @@ A clean, responsive, and user-friendly Weather Application that allows users to 
 
 ## Project Structure
 
+```text
 weather-app/
 │
 ├── index.html                           # Main HTML layout
@@ -40,6 +41,7 @@ weather-app/
     ├── cloud-rain-fill.svg              # Website favicon
     ├── 2026-10-04_11-15.png             # Desktop screenshot
     └── 2026-10-04_11-15_1.png           # Mobile screenshot 
+```
 
 ## Author
 
